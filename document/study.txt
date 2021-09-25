@@ -1,0 +1,12 @@
+1.默认登入的密码
+用户名：user
+密码：项目启动时在控制台上随机生成的字符串
+Using generated security password: 9f671d66-cda5-4cb0-a467-2a3bc31c6765
+2，指定密码的三种方式
+在 application.properties 中进行配置
+spring.security.user.name=admin
+spring.security.user.password=admin
+通过 Java 代码配置在内存中
+config
+    SecurityConfig
+通过 Java 从数据库中加载
